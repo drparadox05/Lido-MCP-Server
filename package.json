@@ -1,0 +1,53 @@
+{
+  "name": "lido-mcp-server",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "MCP server for Lido staking, wrapping, governance, and Uniswap-powered swaps/bridges with safety-first design.",
+  "main": "dist/index.js",
+  "bin": {
+    "lido-mcp-server": "dist/index.js"
+  },
+  "files": [
+    "dist/**/*",
+    "lido.skill.md",
+    "README.md",
+    "DEMO.md",
+    ".env.example"
+  ],
+  "keywords": [
+    "mcp",
+    "lido",
+    "ethereum",
+    "staking",
+    "defi",
+    "uniswap",
+    "bridge",
+    "cursor",
+    "claude"
+  ],
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "engines": {
+    "node": ">=21"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "dev": "tsx src/index.ts",
+    "start": "node dist/index.js",
+    "prepublishOnly": "npm run build"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "1.27.1",
+    "viem": "2.47.6",
+    "zod": "4.3.6"
+  },
+  "devDependencies": {
+    "@types/node": "22.12.0",
+    "tsx": "4.21.0",
+    "typescript": "5.9.3"
+  }
+}
