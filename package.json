@@ -2,6 +2,9 @@
   "name": "@drparadox05/lido-mcp-server",
   "version": "0.1.0",
   "type": "module",
+  "publishConfig": {
+    "access": "public"
+  },
   "description": "MCP server for Lido staking, wrapping, governance, and Uniswap-powered swaps/bridges with safety-first design.",
   "main": "dist/index.js",
   "bin": {
