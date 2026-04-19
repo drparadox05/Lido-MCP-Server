@@ -15,11 +15,6 @@ It is not a REST wrapper.
 All write tools support `dry_run` and default to `true`.
 
 
-## Demo Video (AI agent didn't submit the video in API request)
-
-[![Watch the demo](https://img.youtube.com/vi/V4Xu44B8yVU/0.jpg)](https://www.youtube.com/watch?v=V4Xu44B8yVU)
-
-
 ## Installation & usage
 
 **For users:** See [USER_GUIDE.md](USER_GUIDE.md) for complete setup instructions.
